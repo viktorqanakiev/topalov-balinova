@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div data-spy="affix" id="dot-nav">
+      <ul>
+        <li class="awesome-tooltip active" title="Home">
+          <a href="#main-section"></a>
+        </li>
+        <li class="awesome-tooltip" title="About">
+            <a href="#about"></a>
+        </li>
+        <li class="awesome-tooltip" title="Projects">
+          <a href="#projects"></a>
+        </li>
+        <li class="awesome-tooltip" title="Contact">
+            <a href="#contact"></a>
+        </li>
+      </ul>
+    </div>
+    <div id="main">
+      <section class="vh-100" id="main-section">
+        <div class="row align-items-stretch justify-content-end vh-100">
+          <div
+            id="side-nav"
+            class="col-2 bg-light d-flex flex-column justify-content-between vh-100"
+          >
+            <div>
+              <div id="nav-logo-container">
+                <img src="assets/svg/logo.svg" alt="" />
+              </div>
+            </div>
+            <div class="position-relative">
+              <a href="#" class="btn btn-lg" id="menu-toggle"
+                ><i class="bi bi-list"></i
+              ></a>
+              <div id="sidebar-wrapper" class="position-absolute">
+                <ul class="sidebar-nav">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div id="language">
+              <p>BG/EN</p>
+            </div>
+          </div>
+          <div
+            id="mainPage"
+            class="col-10 bg-image bg-dark sideDiv"
+            style="
+              background-image: url(assets/svg/background-logo.svg);
+              height: 100vh;
+            "
+          >
+            <div id="mainPageInnerDiv">
+              <h1 class="text-white">
+                Ние сме адвокадско дружество <br />Топалов & Балинова
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                eaque veritatis corporis error optio. Doloremque reiciendis quas
+                officiis, ea sequi eligendi, cum ut exercitationem dignissimos,
+                nostrum quis totam laudantium similique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="vh-100" id="about">
+        <div class="row align-items-stretch justify-content-end vh-100">
+          <div
+            class="col-10 bg-image bg-dark sideDiv"
+            style="
+              background-image: url(assets/jpg/man-and-woman.jpg);
+              height: 100vh;
+            "
+          >
+            <div id="aboutPageInnerDiv">
+              <h1>Адвокати</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                eaque veritatis corporis error optio. Doloremque reiciendis quas
+                officiis, ea sequi eligendi, cum ut exercitationem dignissimos,
+                nostrum quis totam laudantium similique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="row align-items-stretch justify-content-end">
+          <div id="bg-col1" class="col-10 sideDiv flex-column">
+            <div class="row align-items-stretch justify-content-center">
+                <div class="col-8 resp">
+                  <div id="activitiesSection1">
+                    <div>
+                      <h1>Дейности</h1>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Incidunt, soluta ea, reprehenderit repellendus saepe
+                        molestias dolorem dolor sapiente deleniti est asperiores
+                        aspernatur dolore laudantium facilis tenetur quis nisi!
+                        Vel, reiciendis.
+                      </p>
+                    </div>
+                    <div>
+                      <h1>Дейност 1</h1>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Incidunt, soluta ea, reprehenderit repellendus saepe
+                        molestias dolorem dolor sapiente deleniti est asperiores
+                        aspernatur dolore laudantium facilis tenetur quis nisi!
+                        Vel, reiciendis.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row align-items-stretch justify-content-end">
+            <div id="bg-col2" class="col-10 sideDiv flex-column">
+              <div class="row align-items-stretch justify-content-center">
+                  <div class="col-8 resp">
+                    <div id="activitiesSection2">
+                        <h1>Дейност 2</h1>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Incidunt, soluta ea, reprehenderit repellendus saepe
+                          molestias dolorem dolor sapiente deleniti est asperiores
+                          aspernatur dolore laudantium facilis tenetur quis nisi!
+                          Vel, reiciendis.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="row align-items-stretch justify-content-end">
+            <div id="bg-col1" class="col-10 sideDiv flex-column">
+              <div class="row align-items-stretch justify-content-center">
+                  <div class="col-8 resp">
+                    <div id="activitiesSection3">
+                      <div>
+                        <h1>Дейност 3</h1>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Incidunt, soluta ea, reprehenderit repellendus saepe
+                          molestias dolorem dolor sapiente deleniti est asperiores
+                          aspernatur dolore laudantium facilis tenetur quis nisi!
+                          Vel, reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet ratione tempora! Maxime amet quasi quam aliquid id nesciunt quisquam molestias inventore, culpa neque magni recusandae voluptatibus vel? Illo, ex?
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis tenetur placeat voluptatibus ut error maxime necessitatibus sunt facilis optio sapiente id, iusto, aperiam ullam, dolorum laboriosam ducimus qui nulla explicabo!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </section>
+      <section class="vh-100" id="contact">
+        <div class="row align-items-stretch justify-content-end vh-100">
+          <div class="col-10 sideDiv bg-dark">
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="navScript.js"></script>
+    <script src="dotSideNavScript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+#bg-col1{
+    background-color:#dad0b6;
+}
+#activitiesSection1{
+    background-color:#dad0b6;
+}
+
+#activitiesSection1 div:nth-child(1){
+    padding-top: 3em;
+    padding-bottom: 1.5em;
+}
+#activitiesSection1 div:nth-child(1) h1{
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+#activitiesSection1 div:nth-child(2){
+    padding-top: 1.5em;
+    padding-bottom: 3em;
+}
+#activitiesSection1 div:nth-child(2) h1{
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid black;
+    font-weight:lighter
+}
+#activitiesSection2{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+#activitiesSection2 h1{
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid black;
+    font-weight:lighter
+}
+#activitiesSection3{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+#activitiesSection3 h1{
+    padding-bottom: 1.5em;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid black;
+    font-weight:lighter
+}
+.resp{
+    transition:all .5s;
+}
+
