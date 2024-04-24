@@ -1,0 +1,21 @@
+section#contact div{
+    background-color: black;
+}
+#questionDiv{
+    width: 40em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+#questionDiv h1{
+    color: white;
+    margin-bottom: 25px;
+}
+#questionDiv p{
+    color: white;
+}
+#questionWraper{
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px !important;
+}
