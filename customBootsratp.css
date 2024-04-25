@@ -18,3 +18,23 @@ textarea.form-control{
     border: none;
     border-radius: 0%;
 }
+#activitiesSection1 div:nth-child(1){
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#activitiesSection1 div:nth-child(2){
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#activitiesSection2{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#activitiesSection3{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }

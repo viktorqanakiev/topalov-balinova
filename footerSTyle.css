@@ -1,0 +1,24 @@
+footer div{
+    height: 20vh;
+    background-color: #dad0b6;;
+}
+#navWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footerNav ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+#footerNav ul li{
+    padding: 1em;
+}
+#footerNav ul li a{
+    text-decoration: none;
+    color: #ad8f60;
+}
