@@ -3,17 +3,25 @@
     position: fixed;
     left: 0;
 }
+#divToDropDown{
+    height: 50vh;
+    transition:all .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 #nav-logo-container{
     padding-top: 3em;
     height: 100px;
     transition:all .5s;
 }
 #menu-toggle{
+    height: 50px;
     transition:all .5s;
     opacity: 100;
 }
-.bi-list{
-    font-size: 50px;
+.position-relative{
+    height: 50vh;
 }
 #sidebar-wrapper{
     left: -100px;

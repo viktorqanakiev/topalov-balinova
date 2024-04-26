@@ -36,6 +36,9 @@
     </div>
     <div id="main">
       <section class="vh-100" id="main-section">
+        <div id="arrowWrapper">
+          <a href="#" class="btn" id="arrow-toggle"><img src="assets/svg/arrow.svg" alt=""></a>
+        </div>  
         <div class="row align-items-stretch justify-content-end vh-100">
           <div
             id="side-nav"
@@ -47,7 +50,12 @@
               </div>
             </div>
             <div class="position-relative">
-              <a href="#" class="btn btn-lg" id="menu-toggle"><img src="assets/svg/hamburger.svg" alt=""></a>
+             <div id="divToDropDown">
+              <a href="#" class="btn btn-sm" id="menu-toggle"><img src="assets/svg/hamburger.svg" alt=""></a>
+              <div id="language">
+                <p>BG/EN</p>
+              </div>
+             </div>
               <div id="sidebar-wrapper" class="position-absolute">
                 <ul class="sidebar-nav">
                   <li><a href="#">Home</a></li>
@@ -55,9 +63,6 @@
                   <li><a href="#">Contact</a></li>
                 </ul>
               </div>
-            </div>
-            <div id="language">
-              <p>BG/EN</p>
             </div>
           </div>
           <div
@@ -80,7 +85,8 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> 
+        
       </section>
       <section class="vh-100" id="about">
         <div class="row align-items-stretch justify-content-end vh-100">
@@ -277,5 +283,6 @@
     ></script>
     <script src="navScript.js"></script>
     <script src="dotSideNavScript.js"></script>
+    <script src="arrowScipt.js"></script>
   </body>
 </html>

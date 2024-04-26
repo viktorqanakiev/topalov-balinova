@@ -1,0 +1,23 @@
+#arrowWrapper{
+    position: fixed;
+    right: 0px;
+    height: 60px;
+    width: 40px;
+    transition: all 0.5s;
+    top:5vh
+}
+
+.down{
+    transform: rotate(180deg);
+    top:90vh !important;
+}
+
+#arrow-toggle img:hover{
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -khtml-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+}
+

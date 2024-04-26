@@ -37,7 +37,7 @@ $(document).ready(function(){
           }
           
           var docTop = $(document).scrollTop();
-          // console.log("DocTop:" + " " + docTop);
+          console.log("DocTop:" + " " + docTop);
           // console.log("----------")
           if(docTop >= ele.offset().top && (docTop < nextTop)){
             $('#dot-nav li').eq(i).addClass('active');

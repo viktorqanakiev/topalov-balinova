@@ -38,3 +38,7 @@ textarea.form-control{
     outline: none !important;
     box-shadow: none;
  }
+ #arrow-toggle{
+    padding: 0 !important;
+    height: 60px;
+ }
